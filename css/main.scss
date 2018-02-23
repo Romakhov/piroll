@@ -1,0 +1,32 @@
+@import "common.scss";
+@import "fonts/fonts.scss";
+
+/*Секция intro*/
+@import "layouts/intro/intro.scss";
+@import "layouts/intro/header.scss";
+@import "layouts/intro/intro-description.scss";
+
+/* Секция about*/
+@import "layouts/about/about.scss";
+
+/*Секция skills*/
+@import "layouts/skills/skills.scss";
+@import "layouts/skills/contentsk.scss";
+
+/*Секция projects*/
+@import "layouts/projects/projects.scss";
+
+/*Секция process*/
+@import "layouts/process/process";
+
+/*Секция best*/
+@import "layouts/best/best.scss";
+
+/*Секция testimonials*/
+@import "layouts/testimonials/testimonials.scss";
+
+/*Секция clients*/
+@import "layouts/clients/clients.scss";
+
+/*Секция form*/
+@import "layouts/form/form.scss";

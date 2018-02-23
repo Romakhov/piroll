@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    margin-top: 28px;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation__item {
+    padding-right: 25px;
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.navigation__item:hover {
+    color: #10c9c3; 
+    letter-spacing: 1.2px;
+}
+
+
+
+

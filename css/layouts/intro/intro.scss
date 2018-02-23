@@ -1,0 +1,17 @@
+.intro {
+    background-image: url("../img/bg/intro.jpg");
+    position: relative;
+    background-size: cover; 
+}
+
+.intro__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 150px;
+}

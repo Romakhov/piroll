@@ -1,0 +1,30 @@
+html,body {
+    height: 100%;
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  
+  section {
+    height: 100%;
+    min-height: 40.625rem;
+  }
+
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1170px;
+  }
+
+  .container {
+      width: 1170px;
+      margin: 0 auto;
+      height: 670px;
+      position: relative;
+  }
+
+  a {
+    text-decoration: none;
+  }
+

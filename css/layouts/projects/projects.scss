@@ -1,0 +1,42 @@
+.projects {
+    width: 100%;
+    height: 240px;
+    background-color: #10c9c3;
+    display: flex;
+    justify-content: center;
+}
+
+.achievments {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.achievments__item {
+    display: flex;
+}
+
+.achievments__icon {
+    padding-right: 25px; 
+}
+
+.achievments-number {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
+}
+
+.achievments__desc {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}

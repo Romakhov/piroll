@@ -1,0 +1,20 @@
+.clients {
+    width: 1366px;
+    height: 200px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.clients__list {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.clients__item {
+    margin-right: 80px;
+}

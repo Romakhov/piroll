@@ -1,0 +1,26 @@
+.skills{
+    display: flex;
+    position: relative;
+
+}
+
+.skills__container {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.grey-background {
+    width: 50%;
+    background-image: url("../img/bg/grey-bg.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
