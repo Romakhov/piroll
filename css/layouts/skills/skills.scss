@@ -1,6 +1,7 @@
 .skills{
     display: flex;
     position: relative;
+    background-color: #f8f9f9;
 
 }
 
@@ -13,14 +14,20 @@
     display: flex;
     justify-content: center;
 
+
+
 }
 
 .grey-background {
     width: 50%;
-    background-color: #10c9c3;
     background-size: cover;
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
+}
+
+.man__image {
+    display: flex;
+    align-items: center;
 }
