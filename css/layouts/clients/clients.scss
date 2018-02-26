@@ -1,6 +1,6 @@
 .clients {
-    width: 1366px;
-    height: 200px;
+    background-size: cover;
+    position: relative;
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -12,7 +12,7 @@
     list-style-type: none;
     display: flex;
     margin: 0 auto;
-
+    margin-top: 20px;
 }
 
 .clients__item {
