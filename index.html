@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
     <title>Piroll Project-Romakhov</title>
 </head>
 <body>
@@ -14,13 +15,13 @@
             <header class="header">
                 <a href="#"><img src="./img/icons/logo.png" alt="" class="logo"></a>
                 <ul class="navigation">
-                    <a href="#"><li class="navigation__item">Home</li></a>
-                    <a href=""><li class="navigation__item">About</li></a>
-                    <a href=""> <li class="navigation__item">Work</li></a>
-                    <a href=""><li class="navigation__item">Process</li></a>
-                    <a href=""><li class="navigation__item">Services</li></a>
-                    <a href=""><li class="navigation__item">Testimonials</li></a>
-                    <a href=""><li class="navigation__item">Contact</li></a>
+                    <a href="./index.html"><li class="navigation__item">Home</li></a>
+                    <a href="#about"><li class="navigation__item">About</li></a>
+                    <a href="#work"> <li class="navigation__item">Work</li></a>
+                    <a href="#process"><li class="navigation__item">Process</li></a>
+                    <a href="#services"><li class="navigation__item">Services</li></a>
+                    <a href="#testimonials"><li class="navigation__item">Testimonials</li></a>
+                    <a href="#contact"><li class="navigation__item">Contact</li></a>
                 </ul>
             </header>
             <div class="intro__content">
@@ -37,7 +38,7 @@
             </div>
         </div>
     </section>
-    <section class="section about">
+    <section class="section about"><a name="about"></a>
         <div class="container about__container">
             <div class="about__content">
                 <h2 class="title about">About us</h2>
@@ -48,10 +49,10 @@
             </div>
         </div>
     </section>
-    <section class="section skills">
+    <section class="section skills"><a name="work"></a>
         <div class="container skills__container">
             <div class="skills__content">
-                <h2 class="title skills">Professional Skills</h2>
+                <h2 class="title title__skills">Professional Skills</h2>
                 <ul class="skills__list">
                     <li class="skills__item">
                         <p class="skills__item-title">UI/UX Design    75%</p>
@@ -77,59 +78,61 @@
         <div class="grey-background">
             <img src="./img/content/man.png" alt="" class="man__image">
         </div>
-    </section>
-    <div class="projects">
-        <div class="container achievments__container">
-            <ul class="achievments">
-            <li class="achievments__item">
-                <div class="achievments__icon">
-                    <img src="./img/icons/portfolio.png" alt="">
-                </div>
-                <div class="achievments__content">
-                    <div class="achievments-number">
-                        548
-                    </div>
-                    <div class="achievments__desc">projects completed</div>
-                </div>
-            </li>
-            <li class="achievments__item">
-                <div class="achievments__icon">
-                    <img src="./img/icons/clock.png" alt="">
-                </div>
-                <div class="achievments__content">
-                    <div class="achievments-number">
-                        1465
-                    </div>
-                    <div class="achievments__desc">WORKING HOURS</div>
-                </div> 
-            </li>
-            <li class="achievments__item">
-                <div class="achievments__icon">
-                    <img src="./img/icons/star.png" alt="">
-                </div>
-                <div class="achievments__content">
-                    <div class="achievments-number">
-                        612
-                    </div>
-                    <div class="achievments__desc">POSITIVE FEEDBACKS</div>
-                </div>  
-            </li>
-            <li class="achievments__item">
-                <div class="achievments__icon">
-                    <img src="./img/icons/like.png" alt="">
-                </div>
-                <div class="achievments__content">
-                    <div class="achievments-number">
-                        735
-                    </div>
-                    <div class="achievments__desc">HAPPY CLIENTS</div>
-                </div> 
-            </li>                
-        </ul>   
-        </div>
-        
     </div>
-    <section class="section process">
+       <div class="projects">
+                <div class="achievments__container">
+                    <ul class="achievments">
+                    <li class="achievments__item">
+                        <div class="achievments__icon">
+                            <img src="./img/icons/portfolio.png" alt="">
+                        </div>
+                        <div class="achievments__content">
+                            <div class="achievments-number">
+                                548
+                            </div>
+                            <div class="achievments__desc">projects completed</div>
+                        </div>
+                    </li>
+                    <li class="achievments__item">
+                        <div class="achievments__icon">
+                            <img src="./img/icons/clock.png" alt="">
+                        </div>
+                        <div class="achievments__content">
+                            <div class="achievments-number">
+                                1465
+                            </div>
+                            <div class="achievments__desc">WORKING HOURS</div>
+                        </div> 
+                    </li>
+                    <li class="achievments__item">
+                        <div class="achievments__icon">
+                            <img src="./img/icons/star.png" alt="">
+                        </div>
+                        <div class="achievments__content">
+                            <div class="achievments-number">
+                                612
+                            </div>
+                            <div class="achievments__desc">POSITIVE FEEDBACKS</div>
+                        </div>  
+                    </li>
+                    <li class="achievments__item">
+                        <div class="achievments__icon">
+                            <img src="./img/icons/like.png" alt="">
+                        </div>
+                        <div class="achievments__content">
+                            <div class="achievments-number">
+                                735
+                            </div>
+                            <div class="achievments__desc">HAPPY CLIENTS</div>
+                        </div> 
+                    </li>                
+                </ul>   
+                </div>
+                
+
+    </section>
+
+    <section class="section process"><a name="process"></a>
         <div class="container process__container">
             <h2 class="title">Our Work Process</h2>
             <p class="process__descripton">Was years it seasons was there form he in in them together over that, 
@@ -142,7 +145,7 @@
             </div>
         </div>
     </section>
-   <section class="section best">
+   <section class="section best"><a name="services"></a>
         <div class="container best__container">
             <ul class="work">
                 <li class="work__item">
@@ -196,15 +199,44 @@
             </ul>
         </div>
     </section>
- <section class="section testimonials">
-        <div class="container testimonials__container">
-            <div class="testimonials__text">
+    <section class="section testimonials"><a name="testimonials"></a>
+        <div class="testimonials__slider">
+            <div class="testimonials__text fade">
+                <div class="main-text">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                    to work with them on a sizable first project and am looking 
+                    forward to start the next one asap.”</div>
+                <div class="name-client">Michael Hopkins</div>
+            </div>
+            <div class="testimonials__text fade">
                 <div class="main-text">“ Outstanding job and exceeded all expectations. It was a pleasure 
                         to work with them on a sizable first project and am looking 
                         forward to start the next one asap.”</div>
                 <div class="name-client">Michael Hopkins</div>
             </div>
+            <div class="testimonials__text fade">
+                <div class="main-text">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                            to work with them on a sizable first project and am looking 
+                            forward to start the next one asap.”</div>
+                <div class="name-client">Michael Hopkins</div>
+            </div>
+            <div class="testimonials__text fade">
+                <div class="main-text">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                            to work with them on a sizable first project and am looking 
+                            forward to start the next one asap.”</div>
+                <div class="name-client">Michael Hopkins</div>
+            </div>
+            <!--<a class="prev" onclick="plusSlides(-1)"></a>
+            <a class="next" onclick="plusSlides(1)"></a>-->
         </div>
+
+        <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span> 
+              </div>
+            
     </section>
     <div class="clients">
         <ul class="clients__list">
@@ -225,7 +257,7 @@
             </li>                    
         </ul>
     </div>
-    <section class="section form">
+    <section class="section form"><a name="contact"></a>
         <div class="container form__container">
             <h2 class="title">Need a Project?</h2>
             <p class="order__desc">Let us know what you're looking for in an agency. We'll take a look and see 
@@ -286,5 +318,6 @@
             </div>
         </footer>
     </section>
+    <script src="./js/main.js"></script>
 </body>
 </html>
