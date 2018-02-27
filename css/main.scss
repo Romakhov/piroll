@@ -1,5 +1,6 @@
-@import "common.scss";
+
 @import "fonts/fonts.scss";
+@import "media.scss";
 
 /*Секция intro*/
 @import "layouts/intro/intro.scss";
@@ -35,3 +36,6 @@
 
 /*Секция footer*/
 @import "layouts/footer/footer.scss";
+
+@import "layouts/common/common.scss";
+

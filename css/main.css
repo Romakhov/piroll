@@ -1,22 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
-html, body {
-  height: 100%;
-  margin: 0; }
-
-.wrapper {
-  position: relative;
-  overflow: hidden; }
-
-.container {
-  width: 1170px;
-  margin: 0 auto;
-  height: 670px;
-  position: relative; }
-
-a {
-  text-decoration: none; }
+.class {
+  font-size: 2.71429rem; }
 
 /*Секция intro*/
 .intro {
@@ -58,6 +44,9 @@ a {
   display: -ms-flexbox;
   display: flex;
   list-style-type: none; }
+  @media (max-width: 767px) {
+    .navigation {
+      display: none; } }
 
 .navigation__item {
   padding-right: 25px;
@@ -282,9 +271,6 @@ a {
   width: 25%;
   height: 300px;
   background-size: cover; }
-
-.projects__item:hover {
-  background-color: cadetblue; }
 
 /*Секция process*/
 .process__container {
@@ -717,3 +703,23 @@ a {
 
 a {
   color: #bcbcbc; }
+
+html, body {
+  height: 100%; }
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100%; }
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  height: 670px; }
+  @media (max-width: 767px) {
+    .container {
+      width: inherit; } }
+
+a {
+  text-decoration: none; }

@@ -1,24 +1,26 @@
 html,body {
     height: 100%;
-    margin: 0;
   }
   
   
-  
-
   .wrapper {
     position: relative;
     overflow: hidden;
+    width: 100%;
+    min-height: 100%;
+
   }
 
   .container {
       width: 1170px;
       margin: 0 auto;
       height: 670px;
-      position: relative;
+
+    @include phone {
+        width: inherit;
+    }
   }
 
   a {
     text-decoration: none;
   }
-

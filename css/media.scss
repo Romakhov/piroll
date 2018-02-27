@@ -1,0 +1,44 @@
+$phone-width: 480px;
+@mixin phone {
+    @media (max-width: #{$phone-width - 1px}) {
+      @content;
+    }
+  }
+
+$tablet-width: 768px;
+@mixin phone {
+    @media (max-width: #{$tablet-width - 1px}) {
+      @content;
+    }
+  }
+
+  $baseFontSize : 14;
+@function rem($pixels, $context: $baseFontSize) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1rem;
+}
+
+.class{
+ font-size:rem(38);
+}
+
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}

@@ -1,0 +1,16 @@
+html, body {
+  height: 100%; }
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100%; }
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  height: 670px; }
+
+a {
+  text-decoration: none; }
