@@ -1,0 +1,24 @@
+.projects__done {
+    width: 100%;
+    height: 600px;
+
+}
+
+.projects__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.projects__item {
+    width: 25%;
+    height: 300px;
+    background-size: cover;
+
+}
+
+.projects__item:hover {
+    background-color: cadetblue;
+}

@@ -145,7 +145,7 @@ a {
   display: flex;
   position: relative;
   background-color: #f8f9f9;
-  height: 810px; }
+  height: 670px; }
 
 .skills__container {
   position: absolute;
@@ -213,6 +213,9 @@ a {
   background-color: #10c9c3; }
 
 /*Секция projects*/
+.work {
+  height: 840px; }
+
 .projects {
   width: 100%;
   height: 240px;
@@ -232,7 +235,8 @@ a {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 50px; }
+  padding-top: 50px;
+  width: 1170px; }
 
 .achievments__item {
   display: -webkit-box;
@@ -259,6 +263,28 @@ a {
   line-height: 30px;
   text-transform: uppercase;
   letter-spacing: 1.2px; }
+
+.projects__done {
+  width: 100%;
+  height: 600px; }
+
+.projects__list {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style-type: none; }
+
+.projects__item {
+  width: 25%;
+  height: 300px;
+  background-size: cover; }
+
+.projects__item:hover {
+  background-color: cadetblue; }
 
 /*Секция process*/
 .process__container {
