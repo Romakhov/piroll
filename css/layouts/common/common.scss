@@ -24,3 +24,10 @@ html,body {
   a {
     text-decoration: none;
   }
+
+  .section {
+    @include phone {
+      height: 100%;
+    }
+ 
+  }

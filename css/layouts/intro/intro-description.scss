@@ -5,6 +5,9 @@
     font-weight: 500;
     line-height: 48px;
     letter-spacing: 0.38px;
+    @include phone {
+        font-size: 2rem;
+    }
 }
 
 .intro__description {
