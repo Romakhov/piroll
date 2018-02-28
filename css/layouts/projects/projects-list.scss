@@ -17,5 +17,10 @@
     height: 300px;
     background-size: cover;
 
+    @include phone {
+        width: 50%;
+        height: 145px;
+    }
+
 }
 

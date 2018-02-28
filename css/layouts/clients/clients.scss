@@ -13,8 +13,16 @@
     display: flex;
     margin: 0 auto;
     margin-top: 20px;
+
+    @include phone {
+        flex-direction: column;
+    }
 }
 
 .clients__item {
     margin-right: 80px;
+    @include phone {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
 }

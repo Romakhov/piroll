@@ -13,6 +13,18 @@
     letter-spacing: 0.08px;
     width: 537px;
     text-align: center;
+
+    @include phone {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+
+form {
+    @include phone {
+     margin-top: 20px;   
+    }
+    
 }
 
 .form__row {
@@ -37,6 +49,9 @@
     width: 670px;
     height: 170px;
     background-color: #ffffff;
+    @include phone {
+        width: 100%;
+    }
 }
 
 .submit {

@@ -15,28 +15,46 @@
     line-height: 30px;
     text-transform: uppercase;
     letter-spacing: 1.2px;
+    @include phone {
+        font-size: 1rem;
+    }
 }
 
 .band {
     width: 500px;
     height: 3px;
     background-color: #d8d8d8;
+
+    @include phone {
+        width: 100%;
+    }
 }
 
 .band2 {
     width: 336px;
     height: 3px;
     background-color: #10c9c3;
+
+    @include phone {
+        width: 75%;
+    }
 }
 
 .band3 {
     width: 428px;
     height: 3px;
     background-color: #10c9c3;
+    @include phone {
+        width: 90%;
+    }
     }
 
 .band4 {
     width: 280px;
     height: 3px;
     background-color: #10c9c3;
+
+    @include phone {
+        width: 65%;
+    }
 }

@@ -29,7 +29,6 @@
   margin-top: 100px; }
   @media (max-width: 767px) {
     .intro__content {
-      margin: auto;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -50,7 +49,8 @@
 
 @media (max-width: 767px) {
   .intro__content-block {
-    text-align: center; } }
+    text-align: center;
+    width: 100%; } }
 
 .header {
   width: 100%;
@@ -95,7 +95,8 @@
   letter-spacing: 0.38px; }
   @media (max-width: 767px) {
     .intro__title {
-      font-size: 2rem; } }
+      font-size: 2.9rem;
+      padding: 1.6rem; } }
 
 .intro__description {
   color: #787878;
@@ -105,6 +106,10 @@
   line-height: 28px;
   letter-spacing: 0.09px;
   width: 474px; }
+  @media (max-width: 767px) {
+    .intro__description {
+      font-size: 1.5rem;
+      width: 100%; } }
 
 .button__contact {
   background-color: #10c9c3;
@@ -116,6 +121,10 @@
   line-height: 84px;
   text-transform: uppercase;
   padding: 23px 46px 22px 46px; }
+  @media (max-width: 767px) {
+    .button__contact {
+      font-size: 1rem;
+      padding: 27px 53px 25px 49px; } }
 
 .button__contact:hover {
   background-color: #787878; }
@@ -137,6 +146,9 @@
   width: 620px;
   margin-top: 150px;
   text-align: center; }
+  @media (max-width: 767px) {
+    .about__content {
+      width: 100%; } }
 
 .title {
   color: #191919;
@@ -145,6 +157,9 @@
   font-weight: 500;
   line-height: 60px;
   letter-spacing: 0.3px; }
+  @media (max-width: 767px) {
+    .title {
+      font-size: 2.9rem; } }
 
 .description__about {
   color: #787878;
@@ -153,6 +168,9 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.08px; }
+  @media (max-width: 767px) {
+    .description__about {
+      font-size: 1.5rem; } }
 
 /*Секция skills*/
 .skills {
@@ -177,6 +195,11 @@
   justify-content: center;
   height: 100%; }
 
+@media (max-width: 767px) {
+  .title__skills {
+    text-align: center;
+    margin-bottom: 85px; } }
+
 .grey-background {
   width: 50%;
   background-size: cover;
@@ -192,6 +215,9 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media (max-width: 767px) {
+    .man__image {
+      display: none; } }
 
 .skills__list {
   list-style-type: none; }
@@ -207,26 +233,41 @@
   line-height: 30px;
   text-transform: uppercase;
   letter-spacing: 1.2px; }
+  @media (max-width: 767px) {
+    .skills__item-title {
+      font-size: 1rem; } }
 
 .band {
   width: 500px;
   height: 3px;
   background-color: #d8d8d8; }
+  @media (max-width: 767px) {
+    .band {
+      width: 100%; } }
 
 .band2 {
   width: 336px;
   height: 3px;
   background-color: #10c9c3; }
+  @media (max-width: 767px) {
+    .band2 {
+      width: 75%; } }
 
 .band3 {
   width: 428px;
   height: 3px;
   background-color: #10c9c3; }
+  @media (max-width: 767px) {
+    .band3 {
+      width: 90%; } }
 
 .band4 {
   width: 280px;
   height: 3px;
   background-color: #10c9c3; }
+  @media (max-width: 767px) {
+    .band4 {
+      width: 65%; } }
 
 /*Секция projects*/
 .work {
@@ -234,7 +275,6 @@
 
 .projects {
   width: 100%;
-  height: 240px;
   background-color: #10c9c3;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,6 +282,9 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  @media (max-width: 767px) {
+    .projects {
+      height: none; } }
 
 .achievments {
   list-style-type: none;
@@ -253,11 +296,24 @@
   justify-content: space-between;
   padding-top: 50px;
   width: 1170px; }
+  @media (max-width: 767px) {
+    .achievments {
+      width: 100%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-top: 0;
+      -ms-flex-line-pack: center;
+      align-content: center; } }
 
 .achievments__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media (max-width: 767px) {
+    .achievments__item {
+      padding-bottom: 3,125rem; } }
 
 .achievments__icon {
   padding-right: 25px; }
@@ -298,6 +354,10 @@
   width: 25%;
   height: 300px;
   background-size: cover; }
+  @media (max-width: 767px) {
+    .projects__item {
+      width: 50%;
+      height: 145px; } }
 
 /*Секция process*/
 .process__container {
@@ -320,6 +380,12 @@
   line-height: 24px;
   letter-spacing: 0.08px;
   width: 500px; }
+  @media (max-width: 767px) {
+    .process__descripton {
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 60px; } }
 
 .process__video {
   background-image: url("../img/content/video1.jpg");
@@ -335,6 +401,14 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  @media (max-width: 767px) {
+    .process__video {
+      width: 100%;
+      height: 292px; } }
+
+@media (max-width: 767px) {
+  .title__process {
+    text-align: center; } }
 
 /*Секция best*/
 .best {
@@ -360,6 +434,12 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
+  @media (max-width: 767px) {
+    .work {
+      text-align: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
 
 .work__item {
   display: -webkit-box;
@@ -377,6 +457,16 @@
   justify-content: center;
   text-align: center;
   margin-right: 40px; }
+  @media (max-width: 767px) {
+    .work__item {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+
+@media (max-width: 767px) {
+  .work__icon {
+    margin-right: 20px; } }
 
 .work__title {
   color: #191919;
@@ -455,6 +545,9 @@
   width: 807px;
   text-align: center;
   padding-bottom: 30px; }
+  @media (max-width: 767px) {
+    .main-text {
+      width: inherit; } }
 
 .name-client {
   color: #ffffff;
@@ -595,9 +688,19 @@
   display: flex;
   margin: 0 auto;
   margin-top: 20px; }
+  @media (max-width: 767px) {
+    .clients__list {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .clients__item {
   margin-right: 80px; }
+  @media (max-width: 767px) {
+    .clients__item {
+      margin-bottom: 20px;
+      margin-right: 0; } }
 
 /*Секция form*/
 .form__container {
@@ -621,6 +724,14 @@
   letter-spacing: 0.08px;
   width: 537px;
   text-align: center; }
+  @media (max-width: 767px) {
+    .order__desc {
+      width: 100%;
+      font-size: 1.5rem; } }
+
+@media (max-width: 767px) {
+  form {
+    margin-top: 20px; } }
 
 .form__row {
   display: -webkit-box;
@@ -641,6 +752,9 @@
   width: 670px;
   height: 170px;
   background-color: #ffffff; }
+  @media (max-width: 767px) {
+    .comment {
+      width: 100%; } }
 
 .submit {
   background-color: #10c9c3;
@@ -679,8 +793,7 @@
   align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  height: 305px; }
+  display: flex; }
 
 .footer__container {
   display: -webkit-box;
@@ -694,6 +807,13 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media (max-width: 767px) {
+    .footer__container {
+      width: 100%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .law__name {
   color: #ffffff;
@@ -746,7 +866,8 @@ html, body {
   height: 670px; }
   @media (max-width: 767px) {
     .container {
-      width: inherit; } }
+      width: 98%;
+      height: 100%; } }
 
 a {
   text-decoration: none; }

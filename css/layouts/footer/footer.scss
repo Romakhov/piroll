@@ -4,7 +4,6 @@
     background-color: #141414;
     align-items: center;
     display: flex;
-    height: 305px;
 }
 
 .footer__container {
@@ -13,6 +12,11 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+
+    @include phone {
+        width: 100%;
+        flex-direction: column;
+    }
 }
 
 .law__name {

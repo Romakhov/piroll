@@ -8,6 +8,7 @@ html,body {
     overflow: hidden;
     width: 100%;
     min-height: 100%;
+    
 
   }
 
@@ -16,9 +17,10 @@ html,body {
       margin: 0 auto;
       height: 670px;
 
-    @include phone {
-        width: inherit;
-    }
+      @include phone {
+        width: 98%;
+        height: 100%;
+    } 
   }
 
   a {
@@ -28,6 +30,7 @@ html,body {
   .section {
     @include phone {
       height: 100%;
+
     }
  
   }
