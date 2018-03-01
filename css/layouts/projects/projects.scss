@@ -1,31 +1,30 @@
-.work {
-    height: 840px;
-}
 
 .projects {
     width: 100%;
     background-color: #10c9c3;
-    display: flex;
-    justify-content: center;
 
-    @include phone {
-        height: none;
-    }
 }
 
 .achievments {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding: 75px;
     width: 1170px;
+    margin: 0 auto;
 
     @include phone {
-        width: 100%;
+        width: 90%;
         flex-direction: column;
-        padding-top: 0;
-        align-content: center;
+        margin: 0;
+        padding: 20px;
 
+    }
+}
+
+.achievments__content {
+    @include phone {
+        width: 12rem;
     }
 }
 

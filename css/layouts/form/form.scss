@@ -4,6 +4,13 @@
     align-items: center;
 }
 
+.needAProject {
+    @include phone {
+        padding: 0;
+        margin: 0;
+    }
+}
+
 .order__desc {
     color: #787878;
     font-family: "Nunito Sans";
@@ -16,16 +23,19 @@
 
     @include phone {
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
     }
 }
 
 form {
     @include phone {
-     margin-top: 20px;   
+     margin-top: 20px;
     }
     
 }
+
 
 .form__row {
     display: flex;

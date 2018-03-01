@@ -7,7 +7,7 @@ html,body {
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 100%;
+ 
     
 
   }
@@ -18,7 +18,7 @@ html,body {
       height: 670px;
 
       @include phone {
-        width: 98%;
+        width: 90%;
         height: 100%;
     } 
   }
@@ -28,6 +28,7 @@ html,body {
   }
 
   .section {
+    
     @include phone {
       height: 100%;
 

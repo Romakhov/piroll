@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 
@@ -15,7 +16,10 @@
     margin-top: 20px;
 
     @include phone {
-        flex-direction: column;
+        flex-direction: row;
+        width: 90%;
+        padding: 0;
+        justify-content: space-between;
     }
 }
 
@@ -25,4 +29,8 @@
         margin-bottom: 20px;
         margin-right: 0;
     }
+}
+
+.clients__icon {
+    width: 80px;
 }
