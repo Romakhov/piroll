@@ -87,6 +87,31 @@
   color: #10c9c3;
   letter-spacing: 1.2px; }
 
+.navigation_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  background: #2f3234;
+  z-index: 1; }
+
 .intro__title {
   color: #1d1d1d;
   font-family: Montserrat;
@@ -129,6 +154,16 @@
 
 .button__contact:hover {
   background-color: #787878; }
+
+.nav-trigger {
+  background-color: grey;
+  position: relative;
+  width: 50px;
+  height: 58px;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+  z-index: 200; }
 
 /* Секция about*/
 .about__container {
@@ -346,13 +381,37 @@
   list-style-type: none; }
 
 .projects__item {
+  position: relative;
   width: 25%;
-  height: 14rem;
+  height: 20rem;
   background-size: cover; }
   @media (max-width: 767px) {
     .projects__item {
       width: 50%;
       height: 75px; } }
+  .projects__item:hover .projects__hover {
+    opacity: 1; }
+
+.projects__hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  background: rgba(20, 20, 20, 0.85);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 /*Секция process*/
 .process__container {
@@ -538,7 +597,18 @@
   padding-bottom: 105px; }
   @media (max-width: 767px) {
     .testimonials__block {
-      width: 90%; } }
+      width: 80%;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-bottom: 0; } }
 
 .main-text {
   color: #ffffff;

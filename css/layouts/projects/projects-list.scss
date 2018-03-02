@@ -12,8 +12,9 @@
 }
 
 .projects__item {
+    position: relative;
     width: 25%;
-    height: 14rem;
+    height: 20rem;
     background-size: cover;
 
     @include phone {
@@ -21,5 +22,24 @@
         height: 75px;
     }
 
+    &:hover {
+        .projects__hover {
+            opacity: 1;
+        }
+    }
+
 }
 
+.projects__hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgba(#141414,0.85);
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

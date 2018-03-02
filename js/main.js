@@ -3,12 +3,10 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -28,3 +26,17 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+
+//Выпадающее мобильное меню//
+
+var hamburger = document.querySelector("#hamburger__link");
+  
+hamburger.addEventListener("click", function(event){
+  event.preventDefault();
+  var nav = document.querySelector("#navigation");
+  nav.classList.add("navigation_active");
+  
+  var navItem = document.querySelector("#nav__item");
+  navItem.classList.add("nav_item_active");
+});
