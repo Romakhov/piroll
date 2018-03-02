@@ -37,6 +37,6 @@ hamburger.addEventListener("click", function(event){
   var nav = document.querySelector("#navigation");
   nav.classList.add("navigation_active");
   
-  var navItem = document.querySelector("#nav__item");
-  navItem.classList.add("nav_item_active");
+  //var navItem = document.querySelector("#nav__item");
+  //navItem.classList.add("nav_item_active");//
 });
